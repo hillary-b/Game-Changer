@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <title>Todo List</title>
   <link rel="stylesheet" type="text/css" href="SiteCss.css">
 </head>
 <header>
