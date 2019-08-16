@@ -1,3 +1,21 @@
+/*ALL PAGES*/
+body{
+  width: 100%;
+  height: 65%;
+  background-color: LightGray;
+}
+
+header{
+  width: 100%;
+  height: 20%
+}
+
+footer{
+  width: 100%;
+  height: 15%
+}
+
+/* POPUP*/
 /* Popup container */
 .popup {
   position: relative;
