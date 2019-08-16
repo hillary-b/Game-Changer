@@ -13,8 +13,8 @@
   </script>
   
   <span class="popuptext" id="myPopup">
-    Username: <input type="text" name="CustomerUsername" value="Username">
-    Password: <input type="text" name="CustomerPassword" value="Password">
+    Username: <input type="text" name="CustomerUsername" value="Username"><br />
+    Password: <input type="text" name="CustomerPassword" value="Password"><br />
     <input type="submit" value="Login"></th>
   </span>
   
