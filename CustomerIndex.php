@@ -13,7 +13,9 @@
   </script>
   
   <span class="popuptext" id="myPopup">
-    
+    Username: <input type="text" name="CustomerUsername" value="Username">
+    Password: <input type="text" name="CustomerPassword" value="Password">
+    <input type="submit" value="Login"></th>
   </span>
   
 </body>
