@@ -43,7 +43,7 @@ footer{
 .popup .popuptext::after {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: 100%;
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
@@ -54,8 +54,8 @@ footer{
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s
 }
 
 /* Add animation (fade in the popup) */
