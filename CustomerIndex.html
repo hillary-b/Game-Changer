@@ -12,24 +12,32 @@
 </header>
   
   <a href="CustomerRegister.html" style="color:black">Register</a></th>
-  <div class="popup" onclick="myFunction()">Login
-    <span class="popuptext" id="myPopup">
-           
-      <form action="CustomerHome.html" method="post">
-        Email: <input type="text" placeholder="Email" name="CustomerEmail" required>
-        Password: <input type="password" placeholder="Password" name="CustomerPassword" required>
-        <input type="submit" value="Login">
-      </form>
-           
-    </span>
-  </div> 
+  <button class="open-button" onclick="openForm()">Login</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="CustomerEmail"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="CustomerEmail" required>
+
+    <label for="CustomerPassword"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="CustomerPassword" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
  
           <script>
-            function myFunction() {
-              var popup = document.getElementById("myPopup");
-              popup.classList.toggle("show");
-            }
-          </script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
 
 <footer>
   <h1>Footer</h1>
