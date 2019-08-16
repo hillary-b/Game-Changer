@@ -6,6 +6,10 @@
 <header>
 
 </header>
+  <?php
+$colors = array("red", "green", "blue", "yellow");
+?>
+
 <body>
   <table>
     <tr>
@@ -14,7 +18,7 @@
       <th>Available Tickets</th>
     </tr>
     <tr>
-      <td>For each loop on movie name</td>
+      <td><?php foreach ($movies as $value){echo "$value"} ?></td>
       <td><a href="">Display Times available</a></td>
       <td>Display Tickets Available</td>
     </tr>
