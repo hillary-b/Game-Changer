@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="SiteCss.css">
+  </head>
 <body>
 
   <a href="CustomerRegister.html">Register</a>
