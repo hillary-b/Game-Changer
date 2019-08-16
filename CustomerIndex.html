@@ -12,11 +12,10 @@
 </header>
 <nav>
   <a href="CustomerRegister.html" style="color:black">Register</a><th>
-  <div class="form-popup" id="myForm">
+  <div class="popup" onclick="myFunction()">Login
+    <span class="popuptext" id="myPopup">
     <form action="CustomerHome.html" class="form-container">
-    
-    Login
-      
+          
     <label for="CustomerEmail"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="CustomerEmail" required>
 
@@ -26,14 +25,12 @@
     <button type="submit" class="btn">Login</button>
     <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
     </form>
+    </span>
   </div>
   <script>
-    function openForm() {
-      document.getElementById("myForm").style.display = "block";
-    }
-
-    function closeForm() {
-      document.getElementById("myForm").style.display = "none";
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
     }
   </script>
 </nav>
