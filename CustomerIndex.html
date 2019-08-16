@@ -12,24 +12,27 @@
 </header>
 <nav>
   <a href="CustomerRegister.html" style="color:black">Register</a><th>
-  <div class="popup" onclick="myFunction()">Login
-    <span class="popuptext" id="myPopup">
-      <form method="post" action="CustomerHome.html">
-        Email: <input type="text" name="CustomerEmail" value="Email"></br>
-        Password: <input type="text" name="CustomerPassword" value="Password"><br />
-        <input type="submit" value="Login"></th>
-     </form>
-    </span>
+  <div class="form-popup" id="myForm">
+    <form action="CustomerHome.html" class="form-container">
+
+    <label for="CustomerEmail"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="CustomerEmail" required>
+
+    <label for="CustomerPassword"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="CustomerPassword" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
   </div>
-  <script>
-    function myFunction() {
-      var popup = document.getElementById("myPopup");
-      popup.classList.toggle("show");
-    }
-  </script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
 </nav>
-
-
 
 <footer>
   <h1>Footer</h1>
