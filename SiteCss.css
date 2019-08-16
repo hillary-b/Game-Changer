@@ -17,6 +17,12 @@ footer{
   background-colour: Black;
 }
 
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  
 /* POPUP*/
 /* Popup container */
 .popup {
