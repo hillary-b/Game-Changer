@@ -14,15 +14,12 @@
   <a href="CustomerRegister.html" style="color:black">Register</a><th>
   <div class="popup" onclick="myFunction()">Login
     <span class="popuptext" id="myPopup">
-    <form action="CustomerHome.html" class="form-container">
-          
-    <label for="CustomerEmail"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="CustomerEmail" required>
+    <form action="CustomerHome.html" method="post">
+        
+    Email: <input type="text" placeholder="Email" name="CustomerEmail" required>
+    Password: <input type="password" placeholder="Password" name="CustomerPassword" required>
 
-    <label for="CustomerPassword"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="CustomerPassword" required>
-
-    <input type="submit" name="Login">
+    <input type="submit" value="Login">
     </form>
     </span>
   </div>
