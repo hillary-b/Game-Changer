@@ -13,19 +13,19 @@
 <nav>
   <table>
     <tr>
-      <th><a href="CustomerRegister.html" color="black">Register</a><th>
-      <th><div class="popup" onclick="myFunction()">Login</th>
+      <th><a href="CustomerRegister.html" style="color:black">Register</a><th>
+      <th><div class="popup" onclick="myFunction()">Login
+            <span class="popuptext" id="myPopup">
+            <form method="post" action="CustomerHome.html">
+              Email: <input type="text" name="CustomerEmail" value="Email"></br>
+              Password: <input type="text" name="CustomerPassword" value="Password"><br />
+              <input type="submit" value="Login"></th>
+            </form>
+            </span>
+        </div>
+      </th>
     </tr>
-  </table>
-  
-    <span class="popuptext" id="myPopup">
-      <form method="post" action="CustomerHome.html">
-        Email: <input type="text" name="CustomerEmail" value="Email"></br>
-        Password: <input type="text" name="CustomerPassword" value="Password"><br />
-        <input type="submit" value="Login"></th>
-      </form>
-    </span>
-  </div> 
+  </table> 
 </nav>
 
 <footer>
