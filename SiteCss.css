@@ -42,7 +42,8 @@ footer{
 
 /* The popup form - hidden by default */
 .form-popup {
-  display: none;
+  visibility: hidden;
+  /*display: none;*/
   position: fixed;
   bottom: 0;
   right: 15px;
